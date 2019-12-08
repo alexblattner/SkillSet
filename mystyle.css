@@ -13,35 +13,6 @@ body {
 .disabled-feature{
 	opacity:0.3;
 }
-/*start of alert related things*/
-#alert-box{
-	width:300px;margin-top:33px;background:white;margin-left:5px;float:right;position:absolute;z-index:1001;text-align:center;overflow-y:scroll;
-	border-bottom-left-radius:7px;border-bottom-right-radius:7px;box-shadow: 0px 1px 4px 1px grey;max-height: 400px;font-size:13pt;
-}
-#alert-box ul{
-	margin: 0;padding: 0; list-style: none;margin-top:5px;margin-bottom:5px;float:left;
-}
-.notification{
-	width:100%;float:left;margin-bottom:3px;
-}
-.notification.new{
-	background: rgba(2, 21, 61,0.3);
-}
-.notification a{
-	width: 100%;height:100%;float:left;color:#000000;
-}
-.notification:hover{
-	background:rgb(235,235,235);
-}
-.notification .title{
-	font-size:12pt;position:relative;float:left;margin-top:3px;margin-left:3px;
-}
-.notification .description{
-	float:left;font-size:10pt;margin-top:-10px;position: relative;margin-left:3px;
-}
-.notification img{
-	float:left; width:50px;height: 50px;margin-left:3px;margin-top:5px;
-}
 /*start of header related things*/
 #background-header {
   width: 100%;position:sticky;
@@ -61,51 +32,6 @@ body {
 }
 #header-logo:hover{
 	background: rgba(250,250,250,0.1);
-}
-#header-sign-on {
-  float: left;
-  width: 40.2597402597%;
-  height: 20px;color: rgb(0, 0, 0);font-size:8pt;
-  margin: 5px 0 0 6.09781%; cursor:pointer;
-  border-radius: 10px;line-height:1px;text-align:center;
-  background-color: rgb(255, 255, 255);
-}
-
-#header-sign-up {
-  float: left;
-  width: 40.2597402597%;
-  height: 20px;
-  margin: 5px 0 0 8.17776%;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 10px; cursor:pointer;
-  background-color: rgba(255, 255, 255, 0);
-  font-size:8pt;line-height:1px;text-align:center;
-  color: rgb(255, 255, 255);
-}
-#header-dropdown {
-float: right;
-cursor: pointer;
-height: 8px;padding:2px;
-margin-top: 15px;
-}
-#header-dropdown:hover{
-	background:rgba(2, 21, 61,0.5);
-}
-#header-dropdown-content{
-	width:150px;margin-top:33px;background:white;margin-left:90px;float:right;position:absolute;z-index:101;
-	border-bottom-left-radius:7px;border-bottom-right-radius:7px;box-shadow: 0px 1px 4px 1px grey;
-}
-#header-dropdown-content ul{
-	list-style: none;margin-left: -40px;
-}
-#header-dropdown-content li{
-	margin-bottom:5px;text-align: center;padding-bottom: 3px;padding-top: 3px;cursor:pointer;
-}
-#delete-account:hover{
-	background: rgb(245,41,64); font-weight:bold;color:white;text-shadow: 0 1px 1px rgb(100,100,100);
-}
-#sign-out:hover{
-	background: rgb(255,224,48);font-weight:bold;color:white;text-shadow: 0 1px 1px rgb(100,100,100);
 }
 #header-profile {
 	float: right; height: 35px; cursor: pointer; color: white; padding-top: 3px;
