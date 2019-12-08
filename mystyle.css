@@ -16,6 +16,7 @@ body {
 /*start of header related things*/
 #background-header {
   width: 100%;position:sticky;
+  display: flex;
   height: 130px;z-index:98;
   background:rgb(178,206,207);
  }
@@ -26,10 +27,19 @@ body {
 	position:relative;height: 130px;opacity:0;top:0px;width:100%
 }
 #header-logo {
-  float: left;
-  width: 250px;margin-top:2.5px;
-  margin-left:25%;cursor: pointer;
+  height: 70%;
+  margin-left: 15%;
+  width: 250px;
+  margin-top:2.5px;
+  cursor: pointer;
 }
+/*
+#logInBox {
+background-color: #9F0000;
+height: 70%;
+width: 250px;
+}
+*/
 #header-logo:hover{
 	background: rgba(250,250,250,0.1);
 }
